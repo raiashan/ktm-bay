@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bakery</title>
+   <meta name="description" content="main page" />
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/testing.css">
+   <link rel="stylesheet" href="css/search.css">
+   <link rel="stylesheet" href="css/best.css">
+   <link rel="stylesheet" href="css/product.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <script src="jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+   <script src="js/bootstrap.js"></script>
+</head><body>
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+         <a href="index.html" ><img src="logo/logo1.png" class="rounded float-left" alt="logo section" height="86px" width="180px" id="logoimg"></a>
+      </div>
+          <div class="col-md-6">
+      <!--     <form action="/action_page.php">
+          <input type="text" placeholder="Search hear.." name="search">
+          <button type="submit">Search</button>
+          </form> -->
+              
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search for products" id="topsrc" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                         <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                    <label for="filter">Filter by</label>
+                                    <select class="form-control">
+                                        <option value="0" selected>All Snippets</option>
+                                        <option value="1">Featured</option>
+                                        <option value="2">Most popular</option>
+                                        <option value="3">Top rated</option>
+                                        <option value="4">Most commented</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Shop</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Contains the words</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                </form>
+                            </div>
+                        </div> 
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div></div></div>
+      </div>
+       
+    <div class="col-md-3" id="linker"> 
+         <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/Ktm_bay" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul> 
+    
+    </div></div>
+  </div><br>
+  <!-- navar stars from here -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Shop</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ktmbay-navbar-collapse-1" aria-controls="ktmbay-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="ktmbay-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="butcher.html">Butcher <span class="sr-only">(current)</span></a></li>
+        <li><a href="green.html">Green grocer</a></li>
+        <li><a href="bakery.html">Bakery</a></li>
+        <li><a href="deli.html">Delicatessen</a></li>
+        <li><a href="fish.html">Fishmonger</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">cart</a></li>
+         <li><a href="login.html">Login</a></li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- navbar ends here -->
+
+      <div id="all">
+        <div id="content">
+          <div class="container">
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li>Bakery</li>
+                    </ul>
+                </div>
+                <!-- div starts for menu and filter -->
+    <div class="col-md-3">
+        <div class="panel panel-default sidebar-menu">
+          <div class="panel-heading">
+              <h3 class="panel-title">Categories</h3>
+            </div>
+              <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked category-menu">
+            <li ><a href="butcher.html">Meat<span class="badge pull-right">10</span></a>
+            <ul>
+                                        <li><a href="butcher.html">Pork</a>
+                                        </li>
+                                        <li><a href="butcher.html">Chicken</a>
+                                        </li>
+                                        <li><a href="butcher.html">Fish</a>
+                                        </li>
+                                        <li><a href="butcher.html">Beff</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="green.html">Green Grocer<span class="badge pull-right">12</span></a>
+                                        <ul>
+                                        <li><a href="green.html">Tomato</a>
+                                        </li>
+                                        <li><a href="green.html">sayote</a>
+                                        </li>
+                                        <li><a href="green.html">Carrot</a>
+                                        </li>
+                                        <li><a href="green.html">Pea</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a href="bakery.html">Bakery<span class="badge pull-right">11</span></a>
+                                    <ul>
+                                        <li><a href="bakery.html">Cakes</a>
+                                        </li>
+                                        <li><a href="bakery.html">Donuts</a>
+                                        </li>
+                                        <li><a href="bakery.html">Cookies</a>
+                                        </li>
+                                        <li><a href="bakery.html">Bread</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                  <li>
+                                    <a href="deli.html">Delicatessen<span class="badge pull-right">09</span></a>
+                                    <ul>
+                                        <li><a href="deli.html">Asian BBQ</a>
+                                        </li>
+                                        <li><a href="deli.html">Burger</a>
+                                        </li>
+                                        <li><a href="deli.html">Tuna salad</a>
+                                        </li>
+                                        <li><a href="deli.html">Ham</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                     <li>
+                                    <a href="fish.html">Fishmonger<span class="badge pull-right">21</span></a>
+                                    <ul>
+                                        <li><a href="fish.html">Salmon</a>
+                                        </li>
+                                        <li><a href="fish.html">Lobster</a>
+                                        </li>
+                                        <li><a href="fish.html">Crab</a>
+                                        </li>
+                                        <li><a href="fish.html">Fillet</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- *** MENUS AND FILTERS END *** -->
+
+                    <div class="banner">
+                        <a href="#">
+                            <img src="image/sea/1.png" alt="sales 2014" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="box">
+                        <h1>Bakery</h1>
+                        <p>In our bakery department we offer wide selection of the best products we have found and carefully selected.</p>
+                    </div>
+
+                    <div class="box info-bar">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 products-showing">
+                                Showing <strong>1</strong> of <strong>25</strong> products
+                            </div>
+
+                            <div class="col-sm-12 col-md-8  products-number-sort">
+                                <div class="row">
+                                    <form class="form-inline">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="products-number">
+                                                <strong>Show</strong>  <a href="#" class="btn btn-default btn-sm btn-primary">6</a>  <a href="#" class="btn btn-default btn-sm">12</a>  <a href="#" class="btn btn-default btn-sm">All</a> products
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="products-sort-by">
+                                                <strong>Sort by</strong>
+                                                <select name="sort-by" class="form-control">
+                                                    <option>Price</option>
+                                                    <option>Name</option>
+                                                    <option>Sales first</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row products">
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="image/bake/brownie-mix.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="image/bake/brownie-mix.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="image/bake/brownie-mix.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Brownie</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+                                </div>
+                                <!-- /.text -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="image/bake/cupcake.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="image/bake/cupcake.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="image/bake/cupcake.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Cupcake</a></h3>
+                                    <p class="price"><del>$280</del> $143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="image/bake/gb.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="image/bake/gb.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="image/bake/gb.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Garlic Bread</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="image/bake/doun.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="image/bake/doun.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="image/bake/doun.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Donuts</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="image/bake/cooki.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="image/bake/cooki.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="image/bake/cooki.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Cookies</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+
+                                <div class="ribbon new">
+                                    <div class="theribbon">NEW</div>
+                                    <div class="ribbon-background"></div>
+                                </div>
+                                <!-- /.ribbon -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="image/croissant.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="image/croissant.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="image/croissant.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">croissant</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+                        <div class="ribbon new">
+                                    <div class="theribbon">NEW</div>
+                                    <div class="ribbon-background"></div>
+                                </div>
+                         
+
+                            </div>
+                            <!-- /.product -->
+                        </div>
+                        <!-- /.col-md-4 -->
+                    </div>
+                    <!-- /.products -->
+
+                    <div class="pages">
+
+              <!--           <p class="loadMore">
+                            <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-chevron-down"></i> Load more</a>
+                        </p> -->
+
+                        <ul class="pagination">
+                            <li><a href="#">&laquo;</a>
+                            </li>
+                            <li class="active"><a href="#">1</a>
+                            </li>
+                            <li><a href="#">2</a>
+                            </li>
+                            <li><a href="#">3</a>
+                            </li>
+                            <li><a href="#">4</a>
+                            </li>
+                            <li><a href="#">5</a>
+                            </li>
+                            <li><a href="#">&raquo;</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- /.col-md-9 -->
+            </div>
+            <!-- /.container -->
+        </div><br>
+    <footer class="foot"><div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>KTMBAY</h4>
+        <P class="text-light">The right place to find best and quality products. We offer different types of product in a reasonable price. The best online shoping experience ever. Just shop with click. </P>
+      </div>
+      <div class="col-md-4">
+        <h4 >OUR INFORMATION</h4>
+        <ul>
+        <li>Home</li>
+        <li>Butcher</li>
+        <li>Green Grocery</li>
+        <li>Fishmonger</li>
+        <li>Bakery</li>
+        <li>Delicatessen</li>
+        <li>About Us</li>
+        <li>Contact</li>
+        </ul>
+      </div>
+        <div class="col-md-4">
+          <h4>ABOUT US</h4>
+             <p>Send us a message, or contact us from the address below</p>
+           <address>
+              <strong>Ktmbay Pvt Ltd.</strong><br>
+              Team Ktmbay
+              <br>
+              Thapathali,kathmandu <br>
+              P: +977 9805318591
+            </address>
+        </div>
+      <br><hr><br>
+    </div>
+    <div class="col-md-12" id="foottext">
+        <p class="text-light">&copy 2018 Ktmbay. All rights reseved </p>
+    </div></div>
+  </footer>
+</body>
+</html>
